@@ -5,10 +5,13 @@
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
-        <a class="links" style="display: flex; justify-content: end;" href="index.html">Index</a>
+        <div id="search-links">
+            <a class="links" style="display: flex; justify-content: end;" href="index.html">Index</a>
+        </div>
 
-        <form class="search-bar" action="https://www.google.ca/search" method="get" role="search">
+        <form class="search-bar" action="https://www.google.ca/search" method="get" >
             <input class="bar" type="text" name="q">
+            <input type="hidden" name="tbm" value="isch">
             <input type="submit" value="Search">
         </form>
 

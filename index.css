@@ -31,6 +31,7 @@ a {text-decoration: none;}
 .search-bar input[type=text]{
     font-size: 15px;
     padding-inline: 20px;
+    border-width: 1px;
 }
 
 .search-bar input[type="submit"]{
