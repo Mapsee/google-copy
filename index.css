@@ -25,6 +25,7 @@ a {text-decoration: none;}
     border-radius: 25px;
     width: 560px;
     height: 40px;
+    border-width: 1px;
 }
 
 .search-bar input[type=text]{
@@ -32,7 +33,13 @@ a {text-decoration: none;}
     padding-inline: 20px;
 }
 
-@media (max-width: 600px){
+.search-bar input[type="submit"]{
+    font-size: 14px;
+    margin: 25px 4px;
+    padding: 7px 14px;
+}
+
+@media (max-width: 650px){
     .bar{
         width: 337px;
     }
