@@ -8,7 +8,53 @@
         <div id="search-links">
             <a class="links" style="display: flex; justify-content: end;" href="index.html">Index</a>
         </div>
-        <h1 style="font-size: 20px; font-family: Arial; margin-left: 10px;">Advanced Search</h1>
+        <h3 style="color: #f28b82; font-family: Arial; margin-left: 30px;">Advanced Search</h3>
         <hr>
+        <h4 style="color: #e8eaed; margin-left: 30px;">Find pages with...</h4>
+        <form class="as-form" action="https://www.google.ca/search">
+
+            <div class="asearch-and-labels">
+                <div class="b-label">
+                    <label class="label-font" for="all these words">all these words:</label>
+                </div>
+                <div class="b-input">
+                    <input class="as-bar" type="text" name="as_q">
+                </div>
+            </div>
+
+            <div class="asearch-and-labels">
+                <div class="b-label">
+                    <label class="label-font" for="this exact word or phrase">this exact word or phrase:</label>
+                </div>
+                <div class="b-input">
+                    <input class="as-bar" type="text" name="as_epq">
+                </div>
+            </div>
+
+            <div class="asearch-and-labels">
+                <div class="b-label">
+                    <label class="label-font" for="any of these words">any of these words:</label>
+                </div>
+                <div class="b-input">
+                    <input class="as-bar" type="text" name="as_oq">
+                </div>
+            </div>
+
+            <div class="asearch-and-labels">
+                <div class="b-label">
+                    <label class="label-font" for="none of these words:">none of these words:</label>
+                </div>
+                <div class="b-input">
+                    <input class="as-bar" type="text" name="as_eq">
+                </div>
+            </div>
+            
+            <hr style="margin-top: 30px;">
+
+            <div style="margin-left: 30px; margin-top: 50px;">
+                <input class="as-button" type="submit" value="Advanced Search">
+            </div>
+        </form>
+
     </body>
 </html>
