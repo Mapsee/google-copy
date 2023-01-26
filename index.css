@@ -18,7 +18,7 @@ html {
 a {text-decoration: none;}
 
 .search-bar {
-    margin-top: 15%;
+    margin: 30px;
     display: flex;           /* establish flex container */
     flex-direction: column;  /* make main axis vertical */
     align-items: center;     /* center items vertically*/
@@ -119,9 +119,12 @@ a {text-decoration: none;}
 }
 
 .b-googleimg{
+    margin: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-height: 92px;
-    height: 300px;
+}
+
+.googleimg{
+    height: 92px;
 }
