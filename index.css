@@ -1,7 +1,5 @@
 html {
-    background-color: #202124;
     font-family: Arial;
-    color: #bdc1c6;
 }
 
 #search-links{
@@ -12,7 +10,6 @@ html {
 .links {
     margin: 10px;
     font-size: 14px;
-    color: #e8eaed;
 }
 
 a {text-decoration: none;}
@@ -27,101 +24,24 @@ a {text-decoration: none;}
 .bar {
     border-radius: 25px;
     width: 560px;
-    max-width: 90%;
     height: 40px;
     border-width: 1px;
-    background-color: transparent;
-    color: #e8eaed;
-    outline: none;
+}
+
+.search-bar input[type=text]{
     font-size: 15px;
     padding-inline: 20px;
-    border-style: solid;
-}
-
-.bar:hover{
-    background-color: #2f3033;
-}
-
-.bar:focus{
-    background-color: #2f3033;
+    border-width: 1px;
 }
 
 .search-bar input[type="submit"]{
     font-size: 14px;
     margin: 25px 4px;
-    padding: 10px 17px;
-    background-color: #303134;
-    color: #e8eaed;
-    border: 1px solid #303134;
-    border-radius: 2px;
+    padding: 7px 14px;
 }
 
-.search-bar input[type="submit"]:hover{
-    box-shadow: 0 1px 3px rgb(23 23 23 / 24%);
-    border: 1px solid #5f6368;
-}
-
-.as-form input[type="text"]{
-    font-size: 13px;
-    padding-inline: 10px;
-    border-width: 1px;
-    color: #e8eaed;
-}
-
-.asearch-and-labels {
-    margin-left: 30px;
-    margin-bottom: 15px;
-}
-
-.b-label {
-    display: inline-block;
-    width: 16%;
-}
-
-.b-input {
-    display: inline;
-}
-
-.label-font {
-    font-size: 13px;
-}
-
-.as-bar {
-    width: 580px;
-    max-width: 90%;
-    height: 25px;
-    border-color: #5f6368;
-    background-color: #202124;
-    outline: none;
-    border-style: solid;
-}
-
-.as-bar:hover{
-    background-color: #2f3033;
-}
-
-.as-bar:focus{
-    background-color: #2f3033;
-}
-
-.as-button{
-    background-color: #8ab4F8;
-    font: #202124;
-    border-width: 1px;
-    font-size: 11px;
-    font-weight: bold;
-    padding: 8px 12px;
-    border-radius: 2px;
-}
-
-.as-button:hover {
-    background-color: #bad3fb;
-}
-
-.b-googleimg{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    min-height: 92px;
-    height: 300px;
+@media (max-width: 650px){
+    .bar{
+        width: 337px;
+    }
 }
