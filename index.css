@@ -119,7 +119,7 @@ a {text-decoration: none;}
 }
 
 .b-googleimg{
-    margin: 30px;
+    margin-top: 10%;
     display: flex;
     flex-direction: column;
     align-items: center;
